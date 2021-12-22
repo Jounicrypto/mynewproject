@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0.3rem;
+}
+
+button{
+    padding: 1px 7px;
+}
+
+/* Header */
+.main-header{
+    text-align: center;
+    margin: 0.5rem auto;
+}
+.main-header>img{
+    width: 25%;
+    margin: auto;
+}
+
+/* Search Form */
+.search-form{
+    background: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.7rem;
+}
+.search-form input{
+    min-width: 14rem;
+}
+.search-form>label, .search-form>input, .search-form>div{
+    margin-bottom: 0.1rem;
+}
+
+/* Main */
+.container{
+    display: flex;
+    margin-top: 0.3rem;
+    min-height: 90px;
+}
+.container a{
+    display: block;
+}
+.section1{
+    flex-grow: 2;
+    background: rgb(98, 145, 145);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    flex-grow: 1;
+    background: rgb(108, 202, 202);
+    margin: 0 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3{
+    flex-grow: 2;
+    background: rgb(75, 165, 165);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3 a{
+    display: inline-block;
+}
+.section3>div{
+    margin-top: 0.1rem;
+}
+
+/* Footer */
+footer{
+    margin: 1rem auto;
+    text-align: center;
+}
